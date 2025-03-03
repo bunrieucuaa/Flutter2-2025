@@ -1,0 +1,10 @@
+"hello": "Xin chào {userName}",
+"@hello": {
+  "description": "A message with a single parameter",
+  "placeholders": {
+    "userName": {
+      "type": "String",
+      "example": "Bob"
+    }
+  }
+}
