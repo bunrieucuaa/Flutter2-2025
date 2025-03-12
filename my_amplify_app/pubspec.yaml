@@ -1,4 +1,4 @@
-name: rbc_smart_aiot
+name: my_amplify_app
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -34,9 +34,10 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-  flutter_localizations:
-    sdk: flutter
-  intl: any
+  amplify_flutter: ^2.0.0
+  amplify_auth_cognito: ^2.0.0
+  amplify_authenticator: ^2.0.0
+  amplify_api: ^2.0.0
 
 dev_dependencies:
   flutter_test:
@@ -58,7 +59,6 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-  generate: true
 
   # To add assets to your application, add an assets section, like this:
   # assets:
